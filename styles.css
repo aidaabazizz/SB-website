@@ -1,0 +1,74 @@
+body {
+  background-color: powderblue;
+}
+
+.header img {
+  float: center;
+  width: 180px;
+  height: 180px;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background:rgb(243, 122, 211);
+  color: white;
+  font-size: 30px
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  max-width:100%;
+  height:auto;
+}
+
+h1 {
+  color: whitesmoke; 
+  font-size: 50px; 
+  font-family: georgia;
+  text-align: center;
+}
+h2 {
+  color: rgb(72, 73, 160); 
+  font-size: 40px; 
+  font-family: georgia;
+  text-align: center;
+}
+h3 {
+  color: rgb(72, 73, 160); 
+  font-size: 35px; 
+  font-family: georgia;
+  text-align: center;
+}
+p {
+  color: rgb(72, 73, 160); 
+  font-size: 16px; 
+  font-family: georgia;
+  text-align: center;
+}
+img {
+  display: block; /* Make the image a block-level element */
+  margin: 0 auto; /* Set left and right margins to auto for horizontal centering */
+  /* Optional: Set a width if the image is too wide and you want to control its size */
+  /* width: 50%; */
+}
+
+a:link {
+  color: rgb(245, 245, 245); /* Unvisited link */
+}
+
+a:visited {
+  color: whitesmoke; /* Visited link */
+}
+
+a:hover {
+  color: purple; /* Mouse over link */
+}
+
+a:active {
+  color: indigo; /* Selected link */
+}
+
+ul {
+  }
